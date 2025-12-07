@@ -1,0 +1,134 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .phone {
+      width: 360px;
+      max-width: 100%;
+      background: linear-gradient(160deg, #1f1c2c, #928dab);
+      border-radius: 24px;
+      padding: 20px 16px 24px;
+      color: #fff;
+    }
+
+    .time {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    #current-time {
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    #current-date {
+      margin-top: 4px;
+      font-size: 14px;
+    }
+
+    .section-title {
+      margin-top: 24px;
+      margin-bottom: 8px;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    .notification {
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: 12px;
+      padding: 10px 12px;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .notif-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+    }
+
+    .notif-text {
+      font-size: 13px;
+    }
+
+    .notif-title {
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+
+    .notif-time {
+      font-size: 11px;
+      opacity: 0.8;
+      margin-top: 2px;
+    }
+
+    .music-player {
+      background: rgba(0, 0, 0, 0.35);
+      border-radius: 16px;
+      padding: 12px 14px;
+      margin-top: 20px;
+    }
+
+    .music-info {
+      margin-bottom: 8px;
+    }
+
+    .song-name {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .artist-name {
+      font-size: 12px;
+      opacity: 0.85;
+      margin-top: 2px;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 8px;
+    }
+
+    .control-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .control-btn.play {
+      width: 44px;
+      height: 44px;
+      font-size: 20px;
+      font-weight: bold;
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    .bottom-hint {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 11px;
+    }
